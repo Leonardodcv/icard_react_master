@@ -1,11 +1,12 @@
-import React from 'react'
-import { Button } from 'semantic-ui-react'
-import "./App.scss"
+import React from 'react';
+import { Navigation } from './routers';
+import { ClientLayout } from './layouts';
 
 export default function App() {
   return (
     <div className='app'>
       <h1 className='app__title'>Hola mundo!</h1>
+      <Navigation />
     </div>
-  )
+  );
 }
