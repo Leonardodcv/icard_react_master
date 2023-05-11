@@ -5,5 +5,5 @@ export function Home() {
     <div>
       <p>Estamos en Home</p>
     </div>
-  )
+  );
 }
