@@ -1,5 +1,5 @@
 import React from 'react'
-import {Routes, Route, Link} from "react-router-dom"
+import {Routes, Route} from "react-router-dom"
 import { BrowserRouter } from 'react-router-dom';
 import { map } from 'lodash';
 import routes from './routes';
